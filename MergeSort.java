@@ -30,8 +30,8 @@ public static void merge(int A[],int low,int mid,int high)
 	{
 	R[i]=A[mid+i+1];
 	}
-System.out.print(Arrays.toString(L)+" ");
-System.out.print(Arrays.toString(R)+" ");
+//System.out.print(Arrays.toString(L)+" ");
+//System.out.print(Arrays.toString(R)+" ");
 
 	int l=0,r=0,k=0;
 	while(l<n1 && r<n2 )
@@ -61,7 +61,7 @@ System.out.print(Arrays.toString(R)+" ");
 		r++;
 		k++;
 	}
-System.out.println(Arrays.toString(A));
+//System.out.println(Arrays.toString(A));
 }
 
 
